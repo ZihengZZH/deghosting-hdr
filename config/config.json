@@ -1,0 +1,35 @@
+{
+    "stack": {
+        "names": ["complex", "handheld", "lolm", "losm", "multiview", "nrm", "occlusion", "solm", "sosm"],
+        "complex": {
+            "1": "./dataset/exposure_stacks_part1/exposure_stacks_part1/complex/image_set1/ghosted/jpg/",
+            "2": "./dataset/exposure_stacks_part1/exposure_stacks_part1/complex/image_set2/ghosted/jpg/",
+            "3": "./dataset/exposure_stacks_part1/exposure_stacks_part1/complex/image_set3/ghosted/jpg/",
+            "4": "./dataset/exposure_stacks_part1/exposure_stacks_part1/complex/image_set4/ghosted/jpg/"
+        },
+        "handheld": {
+
+        },
+        "lolm": {
+
+        },
+        "losm": {
+
+        },
+        "multiview": {
+
+        },
+        "nrm": {
+
+        },
+        "occlusion": {
+
+        },
+        "solm": {
+
+        },
+        "sosm": {
+
+        }
+    }
+}

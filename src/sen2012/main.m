@@ -10,8 +10,8 @@ global refImgNum;   % Reference image number
 %%% Parameters and input initialization ------------
 
 % The name of the scene to be processed
-sceneName = 'FeedingTime';
-% sceneName = 'BabyOnGrass';
+% sceneName = 'FeedingTime';
+sceneName = 'BabyOnGrass';
 % sceneName = 'SantasLittleHelper';
 % sceneName = 'ChristmasRider';
 % sceneName = 'PianoMan';
@@ -42,13 +42,13 @@ fprintf('**********************************\n');
 fprintf('Working on the "%s" dataset\n', sceneName);
 
 fprintf('Loading input images ...');
-[inputLDRs exposureTimes numImages] = ReadSceneFiles(inputSceneFolder, sceneName, outFinalFolder, profile);
+[inputLDRs, exposureTimes, numImages] = ReadSceneFiles(inputSceneFolder, sceneName, outFinalFolder, profile);
 fprintf(repmat('\b', 1, 3));
 fprintf('Done\n');
 fprintf('Total number of images: %d\n\n', numImages);
 %---------------------------------------------------------------------
 
-[alignedVotedImages alignedImages HDR] = GenerateHDR(inputLDRs, exposureTimes, sceneName);
+[alignedVotedImages, alignedImages, HDR] = GenerateHDR(inputLDRs, exposureTimes, sceneName);
 
 fprintf('Finished working on the "%s" dataset\n\n', sceneName);
 

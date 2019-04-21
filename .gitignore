@@ -112,3 +112,6 @@ venv.bak/
 
 # hdr vis tool
 pfstools
+
+# scene 4 sen2012
+src/sen2012/Scenes

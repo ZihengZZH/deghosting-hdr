@@ -109,3 +109,6 @@ venv.bak/
 # IDE
 .vscode
 .idea
+
+# hdr vis tool
+pfstools

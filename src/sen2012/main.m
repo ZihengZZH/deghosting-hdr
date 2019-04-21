@@ -10,8 +10,8 @@ global refImgNum;   % Reference image number
 %%% Parameters and input initialization ------------
 
 % The name of the scene to be processed
-% sceneName = 'FeedingTime';
-sceneName = 'BabyOnGrass';
+sceneName = 'FeedingTime';
+% sceneName = 'BabyOnGrass';
 % sceneName = 'SantasLittleHelper';
 % sceneName = 'ChristmasRider';
 % sceneName = 'PianoMan';
@@ -23,8 +23,8 @@ sceneName = 'BabyOnGrass';
 %%% We support 3 quality modes from 'normal' (fastest/lowest quality) to  
 %%% 'high' (slowest/best quality):
 
-profile = 'normal';
-% profile = 'medium';
+% profile = 'normal';
+profile = 'medium';
 % profile = 'high';
 
 outFinalFolder = 'Results';

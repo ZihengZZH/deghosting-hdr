@@ -1,4 +1,8 @@
 HDRI deghosting algorithm:
-    ☐ understand the dataset
-    ☐ complete the basic i/o
+    ✔ understand the dataset @done(19-04-21 15:47)
+    ✔ complete the basic i/o @done(19-04-21 15:47)
     ☐ complete two algorithms as proposal
+        ☐ sen2012 bug
+            ☐ one or more arguments not assigned when calling votemex
+        ☐ hu2013 bug
+            ☐ slow computation (difference between matlab on Linux or Windows)

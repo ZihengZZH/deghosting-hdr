@@ -70,3 +70,43 @@ The final results is greatly impacted by the selection of the reference image. T
 
 The algorithm selects a reference image and performs alignment of remaining exposures. We observed that the algorithm produces images of lower contrast (dynamic range) than Sen2012. The black level is elevated. The algorithm sometimes distorts textures in the merged HDR image. Non-rigid scenes, rippling water surfaces with large portions of sun reflection contain visible artifacts and produce an unnatural HDR image. The algorithm is good in deghosting.
 
+## HDR-VDP-2
+
+| motion type | image set | score |
+| --          | --        | --    |
+| complex     | 1 | 66.22 / 64.51 |
+| complex     | 2 | 74.89 / 62.31 |
+| complex     | 3 | 65.63 / 55.92 |
+| complex     | 4 | 62.91 / 58.89 |
+| handheld    | 1 | 75.44 / 65.13 |
+| handheld    | 2 | 89.85 / 60.31 |
+| handheld    | 3 | 68.88 / 58.02 |
+| handheld    | 4 | 62.58 / 57.66 |
+| lolm        | 1 | 87.46 / 64.63 |
+| lolm        | 2 | 87.46 / 64.00 |
+| lolm        | 3 | 68.56 / 58.66 |
+| lolm        | 4 | 65.17 / 59.33 |
+| losm        | 1 | 98.35 / 65.28 |
+| losm        | 2 | 91.41 / 63.77 |
+| losm        | 3 | 66.13 / 58.33 |
+| losm        | 4 | 69.71 / 59.42 |
+| multiview   | 1 | 67.29 / 62.64 |
+| multiview   | 2 | 70.28 / 60.22 |
+| multiview   | 3 | 68.82 / 58.24 |
+| multiview   | 4 | 66.34 / 58.81 |
+| nrm         | 1 | 70.71 / 65.10 |
+| nrm         | 2 | 80.31 / 63.74 |
+| nrm         | 3 | 74.25 / 58.84 | 
+| nrm         | 4 | 68.77 / 58.83 | 
+| occlusion   | 1 | 74.22 / 65.36 |
+| occlusion   | 2 | 93.14 / 62.28 | 
+| occlusion   | 3 | 76.69 / 57.93 |
+| occlusion   | 4 | 64.93 / 59.03 | 
+| solm        | 1 | 95.18 / 66.02 |
+| solm        | 2 | 92.67 / 64.07 |
+| solm        | 3 | 71.38 / 58.78 |
+| solm        | 4 | 61.50 / 55.30 |
+| sosm        | 1 | 89.56 / 64.65 |
+| sosm        | 2 | 94.55 / 64.54 |
+| sosm        | 3 | 72.72 / 58.43 |
+| sosm        | 4 | 65.58 / 53.41 |

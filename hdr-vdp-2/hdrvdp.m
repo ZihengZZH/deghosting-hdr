@@ -169,7 +169,7 @@ if( ~exist( 'reconSpyr', 'file' ) )
     % If matlabPyrTools not in the path, add them now
     
     % Get the path to the hdrvdp directory
-    [pathstr, name, ext, versn] = fileparts(mfilename( 'fullpath' ));
+    [pathstr, name, ext] = fileparts(mfilename( 'fullpath' ));
     
     addpath( fullfile( pathstr, 'matlabPyrTools_1.4_fixed' ) );
     

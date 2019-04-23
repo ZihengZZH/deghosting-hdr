@@ -24,3 +24,11 @@ make
 ```
 (sudo) pfsin xxxxxx.hdr | pfsglview
 ```
+
+## how to output HDR image
+
+```pfsout```: Read pfs frames from stdin and write them in the format determined by the extension of the file name. 
+
+```
+(sudo) pfsin xxxxxx.hdr | pfsout xxxxxx.jpg
+```

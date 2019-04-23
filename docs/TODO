@@ -3,6 +3,21 @@ HDRI deghosting algorithm:
     ✔ complete the basic i/o @done(19-04-21 15:47)
     ☐ complete two algorithms as proposal
         ☐ sen2012 bug
-            ☐ one or more arguments not assigned when calling votemex
+            ✔ one or more arguments not assigned when calling votemex @done(19-04-21 22:00)
+            solved. conflict between different versions of mex files
+            run in MATLAB on Windows
         ☐ hu2013 bug
             ☐ slow computation (difference between matlab on Linux or Windows)
+            mex files must be compiled on Linux due to absence of build_windows
+            run in MATLAB on Linux
+
+report ideas:
+    why hdr? 
+    what's wrong with mobile device hdr? (motivation)
+    
+    deghosting algorithm categorization
+    deploy to mobile devices themselves
+
+    1. subjective evaluation
+    2. hdr-vdp-2 evaluation
+    3. computation burden analysis (time & memory complexity)

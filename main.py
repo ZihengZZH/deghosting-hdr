@@ -1,3 +1,3 @@
-from src.utility import load_images, resize_images
+from src.utility import load_images, resize_images, data_analysis
 
-resize_images(7, verbose=True)
+data_analysis()
